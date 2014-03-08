@@ -30,7 +30,7 @@ js 代码
 <script type="text/javascript" src="http://cdn.staticfile.org/d3/3.4.2/d3.min.js"></script>
 <script type="text/javascript" src="http://datamaps.github.io/scripts/datamaps.world.min.js"></script>
 <script type="text/javascript" src="http://d3js.org/topojson.v1.min.js"></script>
-<div id="map"></div>
+<div id="map" style="height: 400px;"></div>
 <script type="text/javascript">
 $(function() {
     var map = new Datamap({
@@ -110,7 +110,7 @@ $(function() {
 
 ## 效果
 
-<div id="map2"></div>
+<div id="map2" style="height: 400px;"></div>
 <script type="text/javascript">
 $(function() {
     var map = new Datamap({
