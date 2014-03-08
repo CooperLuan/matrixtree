@@ -68,6 +68,7 @@ XPath 的标准来自 [W3School XPath 教程](http://www.w3school.com.cn/xpath/i
 13. 包括自身的所有父节点 `ancestor-or-self` `//div[@id='food']/ancestor-or-self::*`
 14. 所有属性 `attribute` `//div[@id='food']/attribute::*`
 15. 子元素 `child`
+16. 所有子节点 `node()` 包括非标签的文本节点 `//div[id='food']/node()`
 16. 所有后代元素 `descendant`
 17. 包括自身的所有后代元素 `descendant-or-self`
 18. 节点之后的所有节点 `following` 结果巨多

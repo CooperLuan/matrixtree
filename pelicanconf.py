@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Cooper'
 SITENAME = u'Matrix Tree'
-SITEURL = ''
+SITEURL = 'http://tree.cooper.me'
 
 TIMEZONE = 'Asia/Chongqing'
 
@@ -24,10 +24,12 @@ LINKS = (
 
 # Social widget
 SOCIAL = (
-    ('Weibo', 'http://weibo.com/gsavl'),
+    ('新浪微博', 'http://weibo.com/gsavl'),
 )
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+THEME ='themes/default'
