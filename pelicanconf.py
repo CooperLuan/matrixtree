@@ -32,4 +32,16 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME ='themes/default'
+THEME = 'themes/default'
+
+MD_EXTENSIONS = ([
+    'codehilite',
+    'headerid',
+    'extra',
+    # 'toc'
+])
+
+PLUGIN_PATH = '../pelican-plugins'
+PLUGINS = [
+    'extract_toc'
+]
