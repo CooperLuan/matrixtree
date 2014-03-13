@@ -32,10 +32,14 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
+DEFAULT_DATE_FORMAT = '周%a %B%d %Y'
+DELETE_OUTPUT_DIRECTORY = True
+MARKUP = ('md')
+
 THEME = 'themes/default'
 
 MD_EXTENSIONS = ([
-    'codehilite',
+    'codehilite(css_class=highlight)',
     'headerid',
     'extra',
     # 'toc'
@@ -43,5 +47,5 @@ MD_EXTENSIONS = ([
 
 PLUGIN_PATH = '../pelican-plugins'
 PLUGINS = [
-    'extract_toc'
+    # 'extract_toc'
 ]
