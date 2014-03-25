@@ -57,12 +57,12 @@
 
 ## 技术栈
 
-＋ python: tornado/Web开发/任务队列/正则/运维
-＋ 多任务处理: rq
-＋ linux: ubuntu/开发/初级运维
-＋ MySQL: 初级优化
-＋ Web 前端: bootstrap/jQuery/highcharts
-＋ NoSQL: 基础 redis
++ python: tornado/Web开发/任务队列/正则/运维
++ 多任务处理: rq
++ linux: ubuntu/开发/初级运维
++ MySQL: 初级优化
++ Web 前端: bootstrap/jQuery/highcharts
++ NoSQL: 基础 redis
 
 ## 学习规划
 
