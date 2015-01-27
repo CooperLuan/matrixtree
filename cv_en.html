@@ -1,0 +1,210 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>简历 栾艳明 Cooper</title>
+<link rel="stylesheet" href="http://cdn.staticfile.org/twitter-bootstrap/3.1.1/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="http://cdn.staticfile.org/font-awesome/4.2.0/css/font-awesome.min.css"/>
+<style type="text/css">
+.container{
+    #width: 100%;
+}
+</style>
+</head>
+<body class="container">
+    <div class="row">
+        <legend>个人简历</legend>
+    </div>
+    <div class="row" id="sec-intro">
+        <h2 class="page-header">栾艳明 Cooper</h2>
+        <div class="col-md-6">
+            <p>
+                <button class="btn btn-info"><i class="fa fa-phone"></i> 18221192304</button>
+                <a class="btn btn-default" href="mailto:gc.suprs@gmail.com"><i class="fa fa-envelope"></i> gc.suprs@gmail.com</a>
+            </p>
+            <p>
+                <button class="btn btn-info">华南理工大学&nbsp;数学系</button>
+                <button class="btn btn-default">本科</button>
+            </p>
+            <p>
+            <button class="btn btn-info"><i class="fa fa-location-arrow"></i>&nbsp;上海</button>
+                <button class="btn btn-default">但是 深/珠/上/杭都 OK</button>
+            </p>
+        </div>
+        <div class="col-md-6">
+            <p>
+                <h3 class="label label-success">GTD 实践者</h3>
+                <h3 class="label label-success">自我驱动</h3>
+                <h3 class="label label-success">谨慎</h3>
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <h2 class="page-header">网站</h2>
+        <div class="col-md-12">
+            <ul class="list-inline">
+                <li><i class="fa fa-code"></i> <a href="http://www.codeeval.com/profile/gsavl/">Codeeval CodeRank</a></li>
+                <li><i class="fa fa-github-alt"></i> <a href="https://github.com/CooperLuan">Github</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="row" id="sec-proj">
+        <h2 class="page-header">项目</h2>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">公司数据产品(2014.4 -- 今)</h3>
+                </div>
+                <div class="panel-body">
+                    公司的数据分析产品
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        技术栈
+                        <ul>
+                            <li>python ETL/归一化</li>
+                            <li>rq 任务系统</li>
+                            <li>mongo 存储 && 聚合</li>
+                            <li>ipython notebooks 数据处理工具集</li>
+                            <li>pandas 日志分析</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">
+                        主要贡献：
+                        <ul>
+                            <li>从 0 开始做数据归一化</li>
+                            <li>写 ORM + notebooks + pandas 分析日志，减少线上运维成本</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">数据雷达(2012.4 -- 2014.4)</h3>
+                </div>
+                <div class="panel-body">
+                    <a href="http://ibbd.net/demo" target="blank">数据雷达</a>是一个淘宝行业数据统计分析/可视化产品, 提供数据收集/统计结果可视化/数据监控功能
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        基础架构:
+                        <ul>
+                            <li>php(codeigniter) + nginx Web 前端</li>
+                            <li>tornado + MySQL + Redis API 服务端</li>
+                            <li>python rq 任务处理</li>
+                            <li>python etl 数据处理</li>
+                        </ul>
+                    </li>
+                    <li class="list-group-item">开发: tornado/MySQL 负责后端/数据库的开发工作</li>
+                    <li class="list-group-item">运维: Ubuntu/python/salt-stack/supervisor</li>
+                    <li class="list-group-item">重构: codeigniter/tornado 分别做 Web/数据平台API</li>
+                    <li class="list-group-item">任务系统: 自开发框架/rq/celery 做任务处理</li>
+                    <li class="list-group-item">数据来源/解析: python re/lxml/sasoup(升级后的开发框架)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">sasoup(2014-3)</h3>
+                </div>
+                <div class="panel-body">
+                    <code><a href="https://github.com/lannikcooper/sasoup" target="blank">sasoup</a></code> 是一个 python html 解析包, 只需要写好解析配置文件, 传入 html 文本, 即可返回数据字典
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">基本匹配方式包括 <code>xpath</code>/<code>re.search(正则搜索)</code>/<code>json</code></li>
+                    <li class="list-group-item">
+                        在 <code>xpath/re/json</code> 的基础上封装了 <code>next/which/ajax</code> 等复杂匹配方式<br>
+                        <code>next</code> 支持从上一次的匹配结果中再次匹配<br>
+                        <code>which</code> 定义 n 个匹配表达式直到有匹配结果为止<br>
+                        <code>ajax</code> 支持 ajax 数据匹配
+                    </li>
+                    <li class="list-group-item"><code>template</code> 支持模板/继承(super)</li>
+                    <li class="list-group-item">更多匹配表达式 <code>base/addon/fields</code></li>
+                    <li class="list-group-item">满足了项目内使用需求, 离标准 python 库还有文档/重构/优化/逻辑覆盖/测试需要完善</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="sec-tree">
+        <h2 class="page-header">技术栈</h2>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        主 python
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">python(熟练)</div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">python 数据处理</div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">多任务处理</div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 15%;">linux</div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 10%;">MySQL</div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 7%;">Web</div>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 7%;">Redis/Mongo</div>
+                    </div>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">python: Web开发/任务队列/数据处理</li>
+                    <li class="list-group-item">多任务处理: rq</li>
+                    <li class="list-group-item">linux: ubuntu/开发/初级运维</li>
+                    <li class="list-group-item">MySQL: 初级优化</li>
+                    <li class="list-group-item">NoSQL: redis/mongo</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">
+                        学习
+                    </h3>
+                </div>
+                <div class="panel-body">
+                    ----------------
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <code>python 科学计算</code> 包括 pandas/numpy/matplotlib
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="row" id="sec-thought">
+        <h2 class="page-header">keys</h2>
+        <div class="col-md-12">
+            <dl>
+                <dt>公司</dt>
+                <dd>希望在技术驱动的公司成长</dd>
+                <dt>方向</dt>
+                <dd>Web 开发最佳实践/数据处理/数据库/统计应用</dd>
+                <dt>个人</dt>
+                <dd>有自己的一套方法工具来提高工作效率</dd>
+            </dl>
+        </div>
+    </div>
+    <footer style="height: 50px;">
+    </footer>
+<script type="text/javascript" src="http://cdn.staticfile.org/jquery/2.1.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/angular.js/1.2.0rc3/angular.min.js"></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/angular.js/1.2.0rc3/angular-route.min.js"></script>
+<script type="text/javascript" src="http://cdn.staticfile.org/bootbox.js/4.2.0/bootbox.min.js"></script>
+</body>
+</html>
